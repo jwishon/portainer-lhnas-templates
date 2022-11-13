@@ -8,4 +8,4 @@ Please keep the following in mind.
 * The templates are not supported by LinuxServer.io
 * The templates are being generated so I cannot accept requests to add templates
 
-Detailed information about installing and using the templates and more can be found [here](https://www.technorabilia.com/portainer-app-templates-for-linuxserver-io-docker-containers).
+Detailed information about installing and using the templates and more can be found from Technorabilia [here](https://www.technorabilia.com/portainer-app-templates-for-linuxserver-io-docker-containers).
