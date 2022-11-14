@@ -5837,7 +5837,7 @@
 			"type": 1,
 			"title": "Prowlarr",
 			"name": "Prowlarr",
-			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/config/radarr/config<br>mkdir -p /share/config/radarr/movies<br>mkdir -p /share/config/radarr/downloads</p>",
+			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/config/prowlarr/config<br></p>",
 			"description": "[Prowlarr](https://github.com/Prowlarr/Prowlarr) ",
 			"platform": "linux",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/prowlarr.png",
