@@ -4672,11 +4672,11 @@
 			{
 				"container": "/downloads",
 				"bind": "/share/Data/downloads"
-			}
+			},
 			{
 				"container": "/intermediate",
 				"bind": "/share/Data/intermediate"
-			}
+			},
 			{
 				"container": "/completed",
 				"bind": "/share/Data/completed"
@@ -5821,11 +5821,11 @@
 			{
 				"container": "/downloads",
 				"bind": "/share/Data/downloads"
-			}
+			},
 			{
 				"container": "/completed",
 				"bind": "/share/Data/completed"
-			}
+			},
 			{
 				"container": "/completed/movies",
 				"bind": "/share/Data/completed/Movies"
@@ -5869,7 +5869,7 @@
 			{
 				"container": "/config",
 				"bind": "/share/config/prowlarr/config"
-			},
+			}
 			],
 			"restart_policy": "unless-stopped"
 		},
@@ -6489,15 +6489,15 @@
 			{
 				"container": "/downloads",
 				"bind": "/share/Data/downloads"
-			}
+			},
 			{
 				"container": "/completed",
 				"bind": "/share/Data/completed"
-			}
+			},
 			{
 				"container": "/completed/SonarrTV",
 				"bind": "/share/Data/completed/SonarrTV"
-			}
+			},
 			{
 				"container": "/blackhole",
 				"bind": "/share/Data/downloads/BlackHole"
