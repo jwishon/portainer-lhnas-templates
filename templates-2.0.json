@@ -6509,7 +6509,7 @@
 			"type": 1,
 			"title": "Readarr",
 			"name": "Readarr",
-			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/config/sonarr/config<br>mkdir -p /share/config/sonarr/tv<br>mkdir -p /share/config/sonarr/downloads</p>",
+			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.",
 			"description": "[Readarr](https://readarr.com/) Readarr is a ebook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will interface with clients and indexers to grab, sort, and rename them.",
 			"categories": [
 				"Media"
