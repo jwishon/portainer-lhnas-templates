@@ -6507,6 +6507,61 @@
 		},
 		{
 			"type": 1,
+			"title": "Readarr",
+			"name": "Readarr",
+			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/config/sonarr/config<br>mkdir -p /share/config/sonarr/tv<br>mkdir -p /share/config/sonarr/downloads</p>",
+			"description": "[Readarr](https://readarr.com/) Readarr is a ebook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will interface with clients and indexers to grab, sort, and rename them.",
+			"categories": [
+				"Media"
+			],
+			"platform": "linux",
+			"logo": "https://readarr.com/img/logo.png",
+			"image": "lscr.io/linuxserver/readarr:nightly",
+			"env": [
+				{
+					"name": "PUID",
+					"label": "PUID",
+					"default": "0",
+					"description": "for UserID"
+				},
+				{
+					"name": "PGID",
+					"label": "PGID",
+					"default": "0",
+					"description": "for GroupID"
+				},
+				{
+					"name": "TZ",
+					"label": "TZ",
+					"default": "America/New_York",
+					"description": "Specify a timezone to use for example America/New_York"
+				}
+			],
+			"ports": [
+				"8787:8787/tcp"
+			],
+			"volumes": [
+			{
+				"container": "/config",
+				"bind": "/share/config/readarr/config"
+			},
+			{
+				"container": "/books",
+				"bind": "/share/config/readarr/books"
+			},
+			{
+				"container": "/downloads",
+				"bind": "/share/Data/downloads"
+			},
+			{
+				"container": "/blackhole",
+				"bind": "/share/Data/downloads/BlackHole"
+			}
+			],
+			"restart_policy": "unless-stopped"
+		},
+		{
+			"type": 1,
 			"title": "Sqlitebrowser",
 			"name": "Sqlitebrowser",
 			"note": "Portainer App Templates based on data provided by <a href='https://www.linuxserver.io' target='_blank'>LinuxServer.io</a>.</p><p>Don't forget to create the volume directories on the host file system.</p><p>mkdir -p /share/config/sqlitebrowser/config</p>",
