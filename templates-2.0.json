@@ -36,6 +36,12 @@
 					"description": "Set a custom config file."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp"
 			],
@@ -87,6 +93,12 @@
 					"default": "<options>",
 					"description": "For passing additional java options."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"4040:4040/tcp"
@@ -147,6 +159,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8000:8000/tcp"
 			],
@@ -186,6 +204,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -233,6 +257,12 @@
 					"description": "Add any address you'd like to access babybuddy at (comma separated, no spaces)"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8000:8000/tcp"
 			],
@@ -275,6 +305,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"6767:6767/tcp"
@@ -326,6 +362,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8337:8337/tcp"
@@ -387,6 +429,12 @@
 					"description": "See the keyboard layouts section for more information and options."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -436,6 +484,12 @@
 					"description": "Optionally set a password for the gui."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp"
 			],
@@ -484,6 +538,12 @@
 					"default": "url-base",
 					"description": "Base url for use with reverse proxies etc."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"4040:4040/tcp"
@@ -564,6 +624,12 @@
 					"description": "for specifying the database to be used (non-alphanumeric passwords must be properly escaped.)"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"6875:80/tcp"
 			],
@@ -603,6 +669,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp",
@@ -660,6 +732,12 @@
 					"description": "Optionally pass cli start arguments to calibre."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp",
 				"8081:8081/tcp"
@@ -716,6 +794,12 @@
 					"description": "Optionally set this to allow Google OAUTH to work"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8083:8083/tcp"
 			],
@@ -765,6 +849,12 @@
 					"default": "",
 					"description": "Specify the full URL (including protocol) when running behind a reverse proxy"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"5000:5000/tcp"
@@ -845,6 +935,12 @@
 					"description": "If this optional variable is set, code-server will open this directory by default"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8443:8443/tcp"
 			],
@@ -887,6 +983,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp"
@@ -980,6 +1082,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -1022,6 +1130,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8080:8080/tcp"
@@ -1116,6 +1230,12 @@
 					"description": "set the loglevel output when running Deluge, default is info for deluged and warning for delgued-web"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8112:8112/tcp",
 				"6881:6881/tcp",
@@ -1177,6 +1297,12 @@
 					"default": "en-us-qwerty",
 					"description": "See the keyboard layouts section for more information and options."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -1288,6 +1414,12 @@
 					"description": "ElasticSearch password (optional)"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -1332,6 +1464,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -1374,6 +1512,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp",
@@ -1430,6 +1574,12 @@
 					"default": "<path to database>",
 					"description": "Sets path to database. Do not set unless you know what this does."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8080:8080/tcp",
@@ -1621,6 +1771,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -1726,6 +1882,12 @@
 					"description": "Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8200:8200/tcp"
 			],
@@ -1776,6 +1938,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8096:8096/tcp",
@@ -1830,6 +1998,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"6555:6555/tcp"
 			],
@@ -1875,6 +2049,12 @@
 					"default": "/",
 					"description": "Specify a subfolder for reverse proxies IE '/FOLDER/'"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp",
@@ -1952,6 +2132,12 @@
 					"description": "By default, the app binds to IPv4 and IPv6 addresses. Set it to `4` or `6` to bind to IPv4 only or IPv6 only, respectively. Leave blank to bind to both."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"22:2222/tcp"
 			],
@@ -1992,6 +2178,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp"
@@ -2105,6 +2297,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -2145,6 +2343,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -2184,6 +2388,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -2249,6 +2459,12 @@
 					"description": "A string used as part of the password key derivation process."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp"
 			],
@@ -2288,6 +2504,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"7396:7396/tcp",
@@ -2329,6 +2551,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp"
@@ -2373,6 +2601,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -2412,6 +2646,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"9283:80/tcp"
@@ -2473,6 +2713,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp",
 				"50000:50000/tcp"
@@ -2513,6 +2759,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8181:8181/tcp"
@@ -2652,6 +2904,12 @@
 					"description": "Defaults to True. Debug mode relaxes CSRF protections and increases logging verbosity but should be disabled for production instances as it will impact performance and security."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8000:8000/tcp"
 			],
@@ -2755,6 +3013,12 @@
 					"description": "Comma-separated list of allowed hostnames"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -2794,6 +3058,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp",
@@ -2840,6 +3110,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8123:8123/tcp"
 			],
@@ -2879,6 +3155,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8085:8085/tcp"
@@ -2922,6 +3204,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp",
@@ -2979,6 +3267,12 @@
 					"description": "Optionally specify additional arguments to be passed."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"9117:9117/tcp"
 			],
@@ -3028,6 +3322,12 @@
 					"default": "192.168.0.5",
 					"description": "Set the autodiscovery response domain or IP address."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8096:8096/tcp",
@@ -3080,6 +3380,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -3126,6 +3432,12 @@
 					"default": "PASS",
 					"description": "Optionally specify a DockerHub password to pull private images."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp",
@@ -3184,6 +3496,12 @@
 					"description": "See the keyboard layouts section for more information and options."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -3229,6 +3547,12 @@
 					"default": "linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg",
 					"description": "Allows additional functionality to be added, e.g. the Calibredb import program (optional, more info below)"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"5299:5299/tcp"
@@ -3284,6 +3608,12 @@
 					"description": "Point this to the private key file, matching the certificate file referred to in CERTFILE"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8888:8888/tcp",
 				"9000:9000/tcp"
@@ -3321,6 +3651,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -3410,6 +3746,12 @@
 					"description": "Database port. Required for mysql."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -3449,6 +3791,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8686:8686/tcp"
@@ -3497,6 +3845,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8080:8080/tcp"
@@ -3561,6 +3915,12 @@
 					"default": "lychee",
 					"description": "for specifying the database to be used"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp"
@@ -3635,6 +3995,12 @@
 					"default": "http://URL1/your.sql,https://URL2/your.sql",
 					"description": "Set this to ingest sql files from an http/https endpoint (comma seperated array)."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3306:3306/tcp"
@@ -3847,6 +4213,12 @@
 					"description": "Alternate hostname for object fetching if you are front the S3 connections."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp",
 				"443:443/tcp"
@@ -3942,6 +4314,12 @@
 					"description": "Optionally specify any [CLI variables](https://wiki.minetest.net/Command_line) you want to launch the app with"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"30000:30000/udp"
 			],
@@ -3988,6 +4366,12 @@
 					"description": "Specify specific run params for minisatip"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8875:8875/tcp",
 				"554:554/tcp",
@@ -4030,6 +4414,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -4067,6 +4457,12 @@
 					"default": "0",
 					"description": "for GroupID"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8090:8090/tcp"
@@ -4115,6 +4511,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -4198,6 +4600,12 @@
 					"description": "HTTP/HTTPS endpoint to download a 7z file with the data.ldb to bootstrap to this node"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8075:8075/tcp",
 				"7076:3000/tcp",
@@ -4265,6 +4673,12 @@
 					"default": "/",
 					"description": "Specify a sobfolder if running this behind a reverse proxy (IE /proxy/)"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp",
@@ -4432,6 +4846,12 @@
 					"description": "A mapping of permissions to assign a new user account when created using remote authentication (optional, default: {})"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8000:8000/tcp"
 			],
@@ -4471,6 +4891,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"443:443/tcp"
@@ -4516,6 +4942,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp",
 				"443:443/tcp"
@@ -4556,6 +4988,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"6667:6667/tcp"
@@ -4609,6 +5047,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"1563:1563/tcp"
 			],
@@ -4660,6 +5104,12 @@
 					"default": "tegbzn6789",
 					"description": "Specify the password for web authentication."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"6789:6789/tcp"
@@ -4713,6 +5163,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"5076:5076/tcp"
 			],
@@ -4762,6 +5218,12 @@
 					"default": "/ombi",
 					"description": "Subfolder can optionally be defined as an env variable for reverse proxies. Keep in mind that once this value is defined, the gui setting for base url no longer works. To use the gui setting, remove this env variable."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3579:3579/tcp"
@@ -4857,6 +5319,12 @@
 					"description": "Optionally specify a user name (Default:`linuxserver.io`)"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"2222:2222/tcp"
 			],
@@ -4921,6 +5389,12 @@
 					"description": "Optionally set sudo password via hash (takes priority over `SUDO_PASSWORD` var). Format is `$type$salt$hashed`."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -4960,6 +5434,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8888:8888/tcp"
@@ -5003,6 +5483,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"5055:5055/tcp"
@@ -5049,6 +5535,12 @@
 					"default": "",
 					"description": "Specify an external redis instance to use. Can optionally include a port (`redis:6379`) and/or db (`redis/foo`). If left blank or not included, will use a built-in redis instance. If changed after initial setup will also require manual modification of /config/settings.py"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8000:8000/tcp"
@@ -5109,6 +5601,12 @@
 					"description": "Set the URL you will use to access the web frontend"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -5149,6 +5647,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -5188,6 +5692,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp"
@@ -5361,6 +5871,12 @@
 					"description": "To set maximum upload size (in MB), default if unset is 5000."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -5410,6 +5926,12 @@
 					"default": "/pwndrop",
 					"description": "Secret path for admin access. Defaults to `/pwndrop`. This parameter only takes effect during initial install; it can later be changed in the web gui."
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8080:8080/tcp"
@@ -5463,6 +5985,12 @@
 					"description": "Enter the LAN IP of the docker server. Required for local access by IP, added to self signed cert as SAN (not required if accessing only through reverse proxy)."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp",
 				"33060:33060/tcp"
@@ -5503,6 +6031,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8000:8000/tcp",
@@ -5567,6 +6101,12 @@
 					"description": "Specify a basic auth password."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3131:3131/tcp"
 			],
@@ -5617,6 +6157,12 @@
 					"description": "for changing the port of the webui, see below for explanation"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:8080/tcp",
 				"6881:6881/tcp",
@@ -5662,6 +6208,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -5712,6 +6264,12 @@
 					"default": "--config-from-environment",
 					"description": "Custom CLI options for Quassel"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"4242:4242/tcp",
@@ -5766,6 +6324,12 @@
 					"description": "Specify a url-base in reverse proxy setups ie. `/quassel`"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"64443:64443/tcp"
 			],
@@ -5805,6 +6369,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"7878:7878/tcp"
@@ -5862,6 +6432,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"9696:9696/tcp"
 			],
@@ -5902,6 +6478,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -5941,6 +6523,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3389:3389/tcp"
@@ -5986,6 +6574,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -6029,6 +6623,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"4545:4545/tcp"
 			],
@@ -6068,6 +6668,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8888:8888/tcp",
@@ -6118,6 +6724,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -6165,6 +6777,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8080:8080/tcp"
@@ -6214,6 +6832,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8081:8081/tcp"
 			],
@@ -6262,6 +6886,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8081:8081/tcp"
 			],
@@ -6309,6 +6939,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp"
@@ -6431,6 +7067,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8080:80/tcp"
 			],
@@ -6473,6 +7115,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8989:8989/tcp"
@@ -6537,6 +7185,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8787:8787/tcp"
 			],
@@ -6588,6 +7242,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -6689,6 +7349,12 @@
 					"description": "Set to `true` to retrieve certs in staging mode. Rate limits will be much higher, but the resulting cert will not pass the browser's security test. Only to be used for testing purposes."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"443:443/tcp",
 				"80:80/tcp"
@@ -6736,6 +7402,12 @@
 					"description": "DEPRECATED - (Still works but will be removed in the future in favor of the built-in var `autojoin__room`) - Set the room name for auto joining (requires `AUTOJOIN_ENABLED` set to `true`)."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8088:8088/tcp"
 			],
@@ -6769,6 +7441,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8384:8384/tcp",
@@ -6824,6 +7502,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"514:5514/udp",
 				"601:6601/tcp",
@@ -6870,6 +7554,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"8181:8181/tcp"
 			],
@@ -6909,6 +7599,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"9000:9000/tcp"
@@ -6986,6 +7682,12 @@
 					"description": "Specify an optional list of comma separated dns name whitelist. Fills rpc-host-whitelist setting."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"9091:9091/tcp",
 				"51413:51413/tcp",
@@ -7042,6 +7744,12 @@
 					"description": "Optionally specify additional arguments to be passed. See Additional runtime parameters."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"9981:9981/tcp",
 				"9982:9982/tcp"
@@ -7092,6 +7800,12 @@
 					"default": "<maxmem>",
 					"description": "To set the maximum memory. ( ex: set '0' for 1GB )"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"2202:2202/tcp",
@@ -7160,6 +7874,12 @@
 					"default": "0",
 					"description": "Optionally change the Java initial/minimum memory. Set to `default` to reset to default"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"8443:8443/tcp",
@@ -7271,6 +7991,12 @@
 					"description": "String which will be used as page/tab title in the web browser."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -7314,6 +8040,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"3000:3000/tcp"
@@ -7401,6 +8133,12 @@
 					"description": "Generated QR codes will be displayed in the docker log. Set to `false` to skip log output."
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"51820:51820/udp"
 			],
@@ -7446,6 +8184,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"3000:3000/tcp"
 			],
@@ -7485,6 +8229,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"80:80/tcp",
@@ -7527,6 +8277,12 @@
 					"description": "Specify a timezone to use for example America/New_York"
 				}
 			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
+			],
 			"ports": [
 				"80:80/tcp"
 			],
@@ -7566,6 +8322,12 @@
 					"default": "America/New_York",
 					"description": "Specify a timezone to use for example America/New_York"
 				}
+			],
+			"network_mode": [
+				"bridge"
+			],
+			"dns": [
+				"192.168.2.25, 1.1.1.1"
 			],
 			"ports": [
 				"6501:6501/tcp"
